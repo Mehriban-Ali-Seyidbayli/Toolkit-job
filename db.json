@@ -107,6 +107,24 @@
       "status": "Rejected",
       "type": "Part Time",
       "date": "7/27/2023"
+    },
+    {
+      "id": 1690531014402,
+      "position": "Software Engineer",
+      "company": "Udemig",
+      "location": "Sweden",
+      "status": "Rejected",
+      "type": "Part Time",
+      "date": "7/28/2023"
+    },
+    {
+      "id": 1690531143299,
+      "position": "Software Engineer",
+      "company": "Udem",
+      "location": "dsds",
+      "status": "Continue",
+      "type": "Full Time",
+      "date": "7/28/2023"
     }
   ]
 }
