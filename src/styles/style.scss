@@ -59,7 +59,7 @@ header{
 
 .job-count{
     margin-left: 50px;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 
 .list-section{
@@ -152,5 +152,14 @@ header{
                 padding: 5px 10px;
             }
         }
+    }
+}
+
+.filter-sec{
+    max-width: 600px !important;
+    margin: 0 auto;
+
+    button{
+        min-height: 45px;
     }
 }

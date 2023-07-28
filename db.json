@@ -89,6 +89,24 @@
       "status": "Rejected",
       "type": "Remote",
       "date": "3/28/2023"
+    },
+    {
+      "id": 1690466496063,
+      "position": "Frontend Developer",
+      "company": "Udemig",
+      "location": "Sweden",
+      "status": "Interview",
+      "type": "Full Time",
+      "date": "7/27/2023"
+    },
+    {
+      "id": 1690467256552,
+      "position": "Full Stack Developer",
+      "company": "Udemig",
+      "location": "Sweden",
+      "status": "Rejected",
+      "type": "Part Time",
+      "date": "7/27/2023"
     }
   ]
 }

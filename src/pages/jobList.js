@@ -2,11 +2,12 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setJobs } from "../redux/jobSlice";
+import Filter from "../components/Filter";
 
 const JobList = () => {
 
     const state = useSelector((state) => state.jobSlice);
-    console.log(state);
+
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -16,11 +17,12 @@ const JobList = () => {
 
     return (
         <>
-            <h3 className="job-count">{state.jobs.length} results</h3>
+            <Filter />
+            <h3 className="job-count">{state.filtredJobs.length} results</h3>
             <section className="list-section">
                 {
                     !state.initialized ? (<p>Loading...</p>) : (
-                        state.jobs.map((job) => (
+                        state.filtredJobs.map((job) => (
                             <div className="job-card" key={job.id}>
                                 <div className="head">
                                     <div className="letter"><p>{job.company[0]}</p></div>
